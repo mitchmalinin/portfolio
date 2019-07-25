@@ -121,6 +121,7 @@ code {
   margin: 40px 0;
   border-radius: 10px;
   width: 50%;
+  height: 300px;
   /* border: 2px solid #71ffc3; */
 }
 
@@ -151,6 +152,7 @@ code {
   height: auto;
   border-radius: 10px 0px 0 10px;
   margin: 0;
+  object-fit: cover;
 }
 
 .projects-container {
@@ -221,7 +223,7 @@ code {
 
 .about {
   margin: 20px 0 100px 0;
-  width: 70%;
+  width: 90%;
   padding: 50px;
   font-size: 28px;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
@@ -323,7 +325,7 @@ code {
     rgba(2, 255, 255, 1) 100%
   );
   /* padding: 20px; */
-  width: 90%;
+  width: 100%;
 }
 
 .tech h3 {
@@ -349,12 +351,17 @@ code {
 
   .about {
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
+  }
+
+  .tech {
+    /* padding: 20px; */
   }
 
   .about-container {
     margin: 0;
     margin-top: 51px;
+    padding: 20px;
   }
 
   .projects .card {
