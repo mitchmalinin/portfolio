@@ -330,7 +330,7 @@ code {
   margin-bottom: 0;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav-container {
     display: none;
   }
@@ -370,3 +370,5 @@ code {
     border-radius: 10px 10px 0 0;
   }
 }
+
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { */
