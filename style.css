@@ -303,8 +303,9 @@ code {
 .skill-imgs {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 .skill-card-single {
