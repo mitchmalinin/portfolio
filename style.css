@@ -260,7 +260,7 @@ code {
   /* margin-top: 70px; */
   color: #71ffc3;
   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.2);
-  width: 25%;
+  width: 30%;
   padding: 30px;
   border-radius: 50px;
   border: 3px solid #71ffc3;
@@ -348,7 +348,7 @@ code {
   font-size: 30px;
   color: #71ffc3;
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
   border: 3px solid #71ffc3;
   margin-bottom: 0px;
 }
@@ -378,7 +378,7 @@ code {
 .contact-content h2 {
   color: #71ffc3;
   box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 60%;
   padding: 20px;
   border-radius: 50px;
   border: 3px solid #71ffc3;
@@ -393,7 +393,7 @@ code {
 
 .contact-single {
   margin: 0px;
-  font-size: 30px;
+  font-size: 25px;
   border: 3px #71ffc3 solid;
   /* padding: 1.5rem 2.5rem; */
   padding: 20px;
