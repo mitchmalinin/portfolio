@@ -548,6 +548,41 @@ footer ul li a:hover {
   color: #fff;
 }
 
+/* Animations */
+.svg-logo-animated {
+  width: 60%;
+}
+
+path {
+  stroke: #2d2d31;
+  fill: #2d2d31;
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 3s cubic-bezier(0, 0.23, 1, 0.1);
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+
+  30% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+
+  90% {
+    fill: #2d2d31;
+  }
+  100% {
+    opacity: 10;
+    stroke-dashoffset: 0;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav-container {
     display: none;
