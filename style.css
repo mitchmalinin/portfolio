@@ -583,6 +583,17 @@ path {
   }
 }
 
+/* Animations */
+.animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-element-down {
+  position: absolute;
+  top: 2%;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav-container {
     display: none;
