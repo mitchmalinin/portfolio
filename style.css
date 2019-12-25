@@ -589,14 +589,29 @@ path {
   overflow: hidden;
 }
 
-.animated-element-down {
+/* .animated-element-left {
   position: absolute;
   top: 2%;
+  left: -60%;
+} */
+
+/* .animated-element-right {
+  position: absolute;
+  top: 24%;
+  right: 100%;
 }
+
+.about-to-skills {
+  padding-top: 100px;
+} */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav-container {
     display: none;
+  }
+
+  .svg-logo-animated {
+    width: 87%;
   }
 
   .main-content h1 {
@@ -614,6 +629,7 @@ path {
 
   .about-text h2 {
     width: 70%;
+    padding: 20px 30px;
   }
   .about-text {
     padding: 0 30px;
@@ -680,7 +696,13 @@ path {
   }
 
   .projects-container h2 {
-    width: 40%;
+    width: 60%;
+    padding: 17px 30px;
+  }
+
+  .skill-name {
+    width: 60%;
+    padding: 17px 30px;
   }
 
   .project-details-header h3 {

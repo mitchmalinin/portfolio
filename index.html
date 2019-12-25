@@ -6,41 +6,6 @@
     <!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/a561988c34.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
-      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
-      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
-      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"
-      integrity="sha256-VV47uJSoHZUeiBcCs3FcBOQLMn++yeG/zqZvaUkvGZM="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"
-      integrity="sha256-nuhNsfXzBFR6G1lKP8bK77dakkQDqdHcQ4OCFZvk6Qo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"
-      integrity="sha256-LBjlnpPrM6Aig8LDFc9PJctPHLGUc6RaUvnmXE4hV5Y="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"
-      integrity="sha256-5jxCMRC1PYU02qJn+fj+DPuxcQZCh0DR8GRwi4iKoRc="
-      crossorigin="anonymous"
-    ></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Mitch Malinin</title>
@@ -237,187 +202,201 @@
         </li>
       </ul>
     </section>
-    <section id="about" class="animation about-container">
-      <div class="about">
-        <div class="about-text">
-          <h2 class="animated-element-down">About Me.</h2>
-          <hr class="about-to-skills" />
-          <p>
-            My name is Mitchell Malinin and I am a senior at Penn State
-            University. I am majoring in cybersecuirty combined with design and
-            development. I recently graduated from the Iron Hack Web Development
-            Bootcamp in Miami, where I learned full stack web development. I
-            have a strong interest in projects that require both conceptual and
-            analytical thinking. I also possess a passion to develop innovative
-            and secure web-based materials that users will love.
-            <!-- <li>
+    <section class="animations">
+      <section id="about" class="about-container">
+        <div class="about">
+          <div class="about-text">
+            <h2 class="animated-element-left">About Me.</h2>
+            <hr class="animated-element-right about-to-skills" />
+            <p class="animated-element-left">
+              My name is Mitchell Malinin and I am a senior at Penn State
+              University. I am majoring in cybersecuirty combined with design
+              and development. I recently graduated from the Iron Hack Web
+              Development Bootcamp in Miami, where I learned full stack web
+              development. I have a strong interest in projects that require
+              both conceptual and analytical thinking. I also possess a passion
+              to develop innovative and secure web-based materials that users
+              will love.
+              <!-- <li>
               Specialties: JavaScript, jQuery, Node.js, React.js, MongoDB,
               Express.js, HTML, CSS (Grid, Flex, Bootstrap, Materialize)
             </li> -->
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
-      <hr class="about-to-skills" />
-      <h3 class="skill-name">Skills.</h3>
-      <hr class="about-to-skills" />
-      <div class="tech">
-        <div class="skill-imgs">
-          <div class="skill-card-single">
-            <h5>React</h5>
-            <div class="skill-card React">
-              <img src="./images/react.svg" alt="" />
+        <hr class="animated-element-right about-to-skills" />
+        <h3 class="animated-element-left skill-name">Skills.</h3>
+        <hr class="animated-element-right about-to-skills" />
+        <div class="animated-element-left tech">
+          <div class="skill-imgs">
+            <div class="skill-card-single">
+              <h5>React</h5>
+              <div class="skill-card React">
+                <img src="./images/react.svg" alt="" />
+              </div>
+            </div>
+            <div class="skill-card-single">
+              <h5>JavaScript</h5>
+              <div class="skill-card JavaScript">
+                <img src="./images/js.svg" alt="" />
+              </div>
+            </div>
+            <div class="skill-card-single">
+              <h5>Node.js</h5>
+              <div class="skill-card Node">
+                <img src="./images/node.svg" alt="" />
+              </div>
+            </div>
+            <div class="skill-card-single">
+              <h5>MongoDB</h5>
+              <div class="skill-card MongoDB">
+                <img src="./images/mongo.svg" alt="" />
+              </div>
+            </div>
+            <div class="skill-card-single">
+              <h5>HTML</h5>
+              <div class="skill-card html">
+                <img src="./images/html.svg" alt="" />
+              </div>
+            </div>
+            <div class="skill-card-single">
+              <h5>CSS</h5>
+              <div class="skill-card css">
+                <img src="./images/css.svg" alt="" />
+              </div>
             </div>
           </div>
-          <div class="skill-card-single">
-            <h5>JavaScript</h5>
-            <div class="skill-card JavaScript">
-              <img src="./images/js.svg" alt="" />
-            </div>
-          </div>
-          <div class="skill-card-single">
-            <h5>Node.js</h5>
-            <div class="skill-card Node">
-              <img src="./images/node.svg" alt="" />
-            </div>
-          </div>
-          <div class="skill-card-single">
-            <h5>MongoDB</h5>
-            <div class="skill-card MongoDB">
-              <img src="./images/mongo.svg" alt="" />
-            </div>
-          </div>
-          <div class="skill-card-single">
-            <h5>HTML</h5>
-            <div class="skill-card html">
-              <img src="./images/html.svg" alt="" />
-            </div>
-          </div>
-          <div class="skill-card-single">
-            <h5>CSS</h5>
-            <div class="skill-card css">
-              <img src="./images/css.svg" alt="" />
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <section id="projects" class="projects-container">
-      <hr class="skills-to-project" />
-      <h2>Projects.</h2>
-      <hr class="about-to-skills" />
-      <div class="card">
-        <div class="project-card-img-section">
-          <img src="./images/projectpocket.png" alt="" />
-          <div class="project-hidden-links">
-            <a
-              target="_blank"
-              href="https://github.com/mitch-candido-final-project/final-project-actual"
-            >
-              Github
-            </a>
-            <a target="_blank" href="https://projectpocket.herokuapp.com/">
-              Live Link
-            </a>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-details-header">
-            <h3>Project Pocket</h3>
-            <h3>August 2019 - Present</h3>
-          </div>
-          <p>Roles: designed & developed</p>
-          <p>
-            Project Pocket is a way to keep all your projects in your pocket!
-            This app helps users keep a virtual portfolio of all their personal
-            projects. This app also helps users with project management. When
-            creating a new project, users are given a calender view to keep
-            track of their different daily project tasks. Currently working on
-            adding a social aspect where users can search for other users and
-            post their projects to get feedback!
-          </p>
-          <ul>
-            <li>Front-End: React, Javascript, HTML & CSS,</li>
-            <li>Back-End: Node.js, Express.js, MongoDB,</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="about-to-skills" />
-      <div class="card">
-        <div class="project-card-img-section">
-          <img src="./images/blackjack.png" alt="" />
-          <div class="project-hidden-links">
-            <a target="_blank" href="https://github.com/mitchmalinin/LinkSaver">
-              Github
-            </a>
-            <a
-              target="_blank"
-              href="https://official-link-saver.herokuapp.com/"
-            >
-              Live Link
-            </a>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-details-header">
-            <h3>Link Saver</h3>
-            <h3>July 2019 - Present</h3>
-          </div>
-          <p>Roles: designed & developed</p>
-          <p>
-            I chose to redesign the bookmark manager. I wanted to create a
-            simple and clean UI that made saving bookmarks a pleasant
-            experience. I also wanted to incorporate a way to view other
-            people's bookmarks, so users could see what resources others like to
-            use.
-          </p>
-          <ul>
-            <li>Front-End: Javascript, HTML, CSS</li>
-            <li>Back-End: Mongo, Mongoose, Node.js, Express.js, HandleBars</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="skills-to-project" />
-      <div class="card">
-        <div class="project-card-img-section">
-          <img src="./images/link-saver.png" alt="" />
-          <div class="project-hidden-links">
-            <a target="_blank" href="https://github.com/mitchmalinin/Blackjack">
-              Github
-            </a>
-            <a target="_blank" href="https://mitchmalinin.github.io/Blackjack/">
-              Live Link
-            </a>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-details-header">
-            <h3>Black Jack</h3>
-            <h3>June 2019 - June 2019</h3>
-          </div>
-          <p>Roles: designed & developed</p>
-          <p>
-            I wanted to build something unique, so I chose to create a game of
-            blackjack but with a sleek and modern design.
-          </p>
-          <ul>
-            <li>Front-End: Javascript, Jquery, HTML & CSS,</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="skills-to-project" />
-    </section>
-    <section id="contact" class="contact-container">
-      <div class="contact-content">
-        <h2>Contact Me.</h2>
+      </section>
+      <section id="projects" class="projects-container">
+        <hr class="skills-to-project" />
+        <h2>Projects.</h2>
         <hr class="about-to-skills" />
-        <div class="contact-single">
-          <p>Phone Number: 215-970-4476</p>
+        <div class="card">
+          <div class="project-card-img-section">
+            <img src="./images/projectpocket.png" alt="" />
+            <div class="project-hidden-links">
+              <a
+                target="_blank"
+                href="https://github.com/mitch-candido-final-project/final-project-actual"
+              >
+                Github
+              </a>
+              <a target="_blank" href="https://projectpocket.herokuapp.com/">
+                Live Link
+              </a>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-header">
+              <h3>Project Pocket</h3>
+              <h3>August 2019 - Present</h3>
+            </div>
+            <p>Roles: designed & developed</p>
+            <p>
+              Project Pocket is a way to keep all your projects in your pocket!
+              This app helps users keep a virtual portfolio of all their
+              personal projects. This app also helps users with project
+              management. When creating a new project, users are given a
+              calender view to keep track of their different daily project
+              tasks. Currently working on adding a social aspect where users can
+              search for other users and post their projects to get feedback!
+            </p>
+            <ul>
+              <li>Front-End: React, Javascript, HTML & CSS,</li>
+              <li>Back-End: Node.js, Express.js, MongoDB,</li>
+            </ul>
+          </div>
         </div>
         <hr class="about-to-skills" />
-        <div class="contact-single">
-          <p>Email: mitchmalinin@gmail.com</p>
+        <div class="card">
+          <div class="project-card-img-section">
+            <img src="./images/blackjack.png" alt="" />
+            <div class="project-hidden-links">
+              <a
+                target="_blank"
+                href="https://github.com/mitchmalinin/LinkSaver"
+              >
+                Github
+              </a>
+              <a
+                target="_blank"
+                href="https://official-link-saver.herokuapp.com/"
+              >
+                Live Link
+              </a>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-header">
+              <h3>Link Saver</h3>
+              <h3>July 2019 - Present</h3>
+            </div>
+            <p>Roles: designed & developed</p>
+            <p>
+              I chose to redesign the bookmark manager. I wanted to create a
+              simple and clean UI that made saving bookmarks a pleasant
+              experience. I also wanted to incorporate a way to view other
+              people's bookmarks, so users could see what resources others like
+              to use.
+            </p>
+            <ul>
+              <li>Front-End: Javascript, HTML, CSS</li>
+              <li>
+                Back-End: Mongo, Mongoose, Node.js, Express.js, HandleBars
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+        <hr class="skills-to-project" />
+        <div class="card">
+          <div class="project-card-img-section">
+            <img src="./images/link-saver.png" alt="" />
+            <div class="project-hidden-links">
+              <a
+                target="_blank"
+                href="https://github.com/mitchmalinin/Blackjack"
+              >
+                Github
+              </a>
+              <a
+                target="_blank"
+                href="https://mitchmalinin.github.io/Blackjack/"
+              >
+                Live Link
+              </a>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-header">
+              <h3>Black Jack</h3>
+              <h3>June 2019 - June 2019</h3>
+            </div>
+            <p>Roles: designed & developed</p>
+            <p>
+              I wanted to build something unique, so I chose to create a game of
+              blackjack but with a sleek and modern design.
+            </p>
+            <ul>
+              <li>Front-End: Javascript, Jquery, HTML & CSS,</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="skills-to-project" />
+      </section>
+      <section id="contact" class="contact-container">
+        <div class="contact-content">
+          <h2>Contact Me.</h2>
+          <hr class="about-to-skills" />
+          <div class="contact-single">
+            <p>Phone Number: 215-970-4476</p>
+          </div>
+          <hr class="about-to-skills" />
+          <div class="contact-single">
+            <p>Email: mitchmalinin@gmail.com</p>
+          </div>
+        </div>
+      </section>
     </section>
     <footer>
       <p>Mitch Malinin Productions &copy</p>
