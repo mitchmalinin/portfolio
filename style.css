@@ -583,28 +583,6 @@ path {
   }
 }
 
-/* Animations */
-.animation {
-  position: relative;
-  overflow: hidden;
-}
-
-/* .animated-element-left {
-  position: absolute;
-  top: 2%;
-  left: -60%;
-} */
-
-/* .animated-element-right {
-  position: absolute;
-  top: 24%;
-  right: 100%;
-}
-
-.about-to-skills {
-  padding-top: 100px;
-} */
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .nav-container {
     display: none;
